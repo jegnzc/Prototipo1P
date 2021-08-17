@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BodegasAgricolas.Vista;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,6 +29,16 @@ namespace BodegasAgricolas
         private void btnNuevaVenta_Click(object sender, EventArgs e)
         {
             gestorDeFormActivo(new VistaVenta(), "VENTA");
+        }
+
+        private void btnVerClientes_Click(object sender, EventArgs e)
+        {
+            gestorDeFormActivo(new VistaClientes(), "VERCLIENTES");
+        }
+
+        private void btnVerProductos_Click(object sender, EventArgs e)
+        {
+            gestorDeFormActivo(new VistaProductos(), "VERPRODUCTOS");
         }
 
         private void gestorDeFormActivo(Form formHijo, string formHijoActual)

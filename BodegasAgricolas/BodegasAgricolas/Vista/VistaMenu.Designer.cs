@@ -37,6 +37,8 @@ namespace BodegasAgricolas
             this.label1 = new System.Windows.Forms.Label();
             this.btnAgregarCliente = new System.Windows.Forms.Button();
             this.btnNuevaVenta = new System.Windows.Forms.Button();
+            this.btnVerClientes = new System.Windows.Forms.Button();
+            this.btnVerProductos = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panelPrincipal.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -77,6 +79,8 @@ namespace BodegasAgricolas
             this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Controls.Add(this.btnAgregarCliente);
             this.flowLayoutPanel1.Controls.Add(this.btnNuevaVenta);
+            this.flowLayoutPanel1.Controls.Add(this.btnVerClientes);
+            this.flowLayoutPanel1.Controls.Add(this.btnVerProductos);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
@@ -127,6 +131,28 @@ namespace BodegasAgricolas
             this.btnNuevaVenta.UseVisualStyleBackColor = true;
             this.btnNuevaVenta.Click += new System.EventHandler(this.btnNuevaVenta_Click);
             // 
+            // btnVerClientes
+            // 
+            this.btnVerClientes.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerClientes.Location = new System.Drawing.Point(3, 189);
+            this.btnVerClientes.Name = "btnVerClientes";
+            this.btnVerClientes.Size = new System.Drawing.Size(189, 47);
+            this.btnVerClientes.TabIndex = 1;
+            this.btnVerClientes.Text = "Ver clientes";
+            this.btnVerClientes.UseVisualStyleBackColor = true;
+            this.btnVerClientes.Click += new System.EventHandler(this.btnVerClientes_Click);
+            // 
+            // btnVerProductos
+            // 
+            this.btnVerProductos.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerProductos.Location = new System.Drawing.Point(3, 242);
+            this.btnVerProductos.Name = "btnVerProductos";
+            this.btnVerProductos.Size = new System.Drawing.Size(189, 51);
+            this.btnVerProductos.TabIndex = 3;
+            this.btnVerProductos.Text = "Ver catálogo";
+            this.btnVerProductos.UseVisualStyleBackColor = true;
+            this.btnVerProductos.Click += new System.EventHandler(this.btnVerProductos_Click);
+            // 
             // VistaMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -156,6 +182,8 @@ namespace BodegasAgricolas
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAgregarCliente;
         private System.Windows.Forms.Button btnNuevaVenta;
+        private System.Windows.Forms.Button btnVerClientes;
+        private System.Windows.Forms.Button btnVerProductos;
     }
 }
 

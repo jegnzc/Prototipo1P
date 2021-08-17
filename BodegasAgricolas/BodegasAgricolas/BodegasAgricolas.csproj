@@ -51,9 +51,17 @@
   <ItemGroup>
     <Compile Include="ConexionODBC.cs" />
     <Compile Include="Modelo\DAO\daoCliente.cs" />
+    <Compile Include="Modelo\DAO\daoProducto.cs" />
     <Compile Include="Modelo\DAO\daoVentasEncabezado.cs" />
     <Compile Include="Modelo\DTO\dtoCliente.cs" />
+    <Compile Include="Modelo\DTO\dtoProducto.cs" />
     <Compile Include="Modelo\DTO\dtoVentasEncabezado.cs" />
+    <Compile Include="Vista\VistaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\VistaClientes.Designer.cs">
+      <DependentUpon>VistaClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\VistaMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,12 +76,21 @@
     <Compile Include="Vista\VistaNuevoCliente.Designer.cs">
       <DependentUpon>VistaNuevoCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vista\VistaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\VistaProductos.Designer.cs">
+      <DependentUpon>VistaProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\VistaVenta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vista\VistaVenta.Designer.cs">
       <DependentUpon>VistaVenta.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vista\VistaClientes.resx">
+      <DependentUpon>VistaClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista\VistaMenu.resx">
       <DependentUpon>VistaMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +105,9 @@
     </Compile>
     <EmbeddedResource Include="Vista\VistaNuevoCliente.resx">
       <DependentUpon>VistaNuevoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\VistaProductos.resx">
+      <DependentUpon>VistaProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\VistaVenta.resx">
       <DependentUpon>VistaVenta.cs</DependentUpon>

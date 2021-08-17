@@ -13,3 +13,5 @@ C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\Bodegas
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\bin\Debug\Dapper.dll
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\bin\Debug\Dapper.xml
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.csproj.CopyComplete
+C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.Vista.VistaClientes.resources
+C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.Vista.VistaProductos.resources
