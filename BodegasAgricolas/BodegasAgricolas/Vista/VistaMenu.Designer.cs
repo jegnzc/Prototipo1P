@@ -39,6 +39,7 @@ namespace BodegasAgricolas
             this.btnNuevaVenta = new System.Windows.Forms.Button();
             this.btnVerClientes = new System.Windows.Forms.Button();
             this.btnVerProductos = new System.Windows.Forms.Button();
+            this.btnReporteCatalogo = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panelPrincipal.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -81,6 +82,7 @@ namespace BodegasAgricolas
             this.flowLayoutPanel1.Controls.Add(this.btnNuevaVenta);
             this.flowLayoutPanel1.Controls.Add(this.btnVerClientes);
             this.flowLayoutPanel1.Controls.Add(this.btnVerProductos);
+            this.flowLayoutPanel1.Controls.Add(this.btnReporteCatalogo);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
@@ -153,6 +155,17 @@ namespace BodegasAgricolas
             this.btnVerProductos.UseVisualStyleBackColor = true;
             this.btnVerProductos.Click += new System.EventHandler(this.btnVerProductos_Click);
             // 
+            // btnReporteCatalogo
+            // 
+            this.btnReporteCatalogo.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporteCatalogo.Location = new System.Drawing.Point(3, 299);
+            this.btnReporteCatalogo.Name = "btnReporteCatalogo";
+            this.btnReporteCatalogo.Size = new System.Drawing.Size(189, 45);
+            this.btnReporteCatalogo.TabIndex = 4;
+            this.btnReporteCatalogo.Text = "Reporte de Catálogo";
+            this.btnReporteCatalogo.UseVisualStyleBackColor = true;
+            this.btnReporteCatalogo.Click += new System.EventHandler(this.btnReporteCatalogo_Click);
+            // 
             // VistaMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -184,6 +197,7 @@ namespace BodegasAgricolas
         private System.Windows.Forms.Button btnNuevaVenta;
         private System.Windows.Forms.Button btnVerClientes;
         private System.Windows.Forms.Button btnVerProductos;
+        private System.Windows.Forms.Button btnReporteCatalogo;
     }
 }
 

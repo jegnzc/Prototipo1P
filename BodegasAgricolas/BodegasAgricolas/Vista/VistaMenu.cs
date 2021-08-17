@@ -1,4 +1,5 @@
-﻿using BodegasAgricolas.Vista;
+﻿using BodegasAgricolas.Reporte;
+using BodegasAgricolas.Vista;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -39,6 +40,11 @@ namespace BodegasAgricolas
         private void btnVerProductos_Click(object sender, EventArgs e)
         {
             gestorDeFormActivo(new VistaProductos(), "VERPRODUCTOS");
+        }
+
+        private void btnReporteCatalogo_Click(object sender, EventArgs e)
+        {
+            gestorDeFormActivo(new VistaReporteProductos(), "VERREPORTE");
         }
 
         private void gestorDeFormActivo(Form formHijo, string formHijoActual)
