@@ -1,7 +1,7 @@
 ﻿
-namespace BodegasAgricolas
+namespace BodegasAgricolas.Vista
 {
-    partial class VistaNuevoCliente
+    partial class VistaVerVentasEnca
     {
         /// <summary>
         /// Required designer variable.
@@ -29,29 +29,41 @@ namespace BodegasAgricolas
         /// </summary>
         private void InitializeComponent()
         {
+            this.tablaVentasEnca = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaVentasEnca)).BeginInit();
             this.SuspendLayout();
+            // 
+            // tablaVentasEnca
+            // 
+            this.tablaVentasEnca.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tablaVentasEnca.Location = new System.Drawing.Point(12, 55);
+            this.tablaVentasEnca.Name = "tablaVentasEnca";
+            this.tablaVentasEnca.Size = new System.Drawing.Size(544, 278);
+            this.tablaVentasEnca.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(180, 9);
+            this.label1.Location = new System.Drawing.Point(139, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Agregar Cliente";
+            this.label1.Size = new System.Drawing.Size(260, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Ver encabezado de ventas";
             // 
-            // VistaNuevoCliente
+            // VistaVerVentasEnca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(568, 345);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.tablaVentasEnca);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "VistaNuevoCliente";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "VistaNuevoCliente";
+            this.Name = "VistaVerVentasEnca";
+            this.Text = "VistaVerVentasEnca";
+            this.Load += new System.EventHandler(this.VistaVerVentasEnca_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.tablaVentasEnca)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -59,6 +71,7 @@ namespace BodegasAgricolas
 
         #endregion
 
+        private System.Windows.Forms.DataGridView tablaVentasEnca;
         private System.Windows.Forms.Label label1;
     }
 }

@@ -4,7 +4,6 @@ C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\Bodegas
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.csproj.AssemblyReference.cache
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.VistaMenu.resources
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.Properties.Resources.resources
-C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.VistaNuevoCliente.resources
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.csproj.GenerateResource.cache
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.csproj.CoreCompileInputs.cache
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.exe
@@ -35,3 +34,6 @@ C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\Bodegas
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\bin\Debug\stdole.dll
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.Reporte.VistaReporteProductos.resources
+C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.Vista.VistaVentaDetalles.resources
+C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.Vista.VistaVerVentasEnca.resources
+C:\Users\CORE i7 6TA WIN10\Documents\PrimerParcialAS2\Actual\Prototipo1P\BodegasAgricolas\BodegasAgricolas\obj\Debug\BodegasAgricolas.Vista.VistaVerVentaDetalles.resources

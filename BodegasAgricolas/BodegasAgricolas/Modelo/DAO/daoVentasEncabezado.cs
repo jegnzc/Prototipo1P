@@ -13,6 +13,20 @@ namespace BodegasAgricolas.Modelo.DAO
     {
         private ConexionODBC ODBC = new ConexionODBC();
 
+        public List<dtoVentasEncabezado> mostrarVentasEncabezado()
+        {
+            List<dtoVentasEncabezado> sqlresultado = new List<dtoVentasEncabezado>();
+            OdbcConnection conexionODBC = ODBC.abrirConexion();
+            if (conexionODBC != null)
+            {
+                string sqlconsulta = "SELECT * FROM ventas_encabezado;";
+                sqlresultado = conexionODBC.Query<dtoVentasEncabezado>(sqlconsulta).ToList();
+                ODBC.cerrarConexion(conexionODBC);
+                return sqlresultado;
+            }
+            return null;
+        }
+
         public dtoVentasEncabezado agregarVentaEncabezado(dtoVentasEncabezado modelo)
         {
             OdbcConnection conexionODBC = ODBC.abrirConexion();

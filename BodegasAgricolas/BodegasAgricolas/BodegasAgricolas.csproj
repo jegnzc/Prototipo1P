@@ -59,9 +59,11 @@
     <Compile Include="ConexionODBC.cs" />
     <Compile Include="Modelo\DAO\daoCliente.cs" />
     <Compile Include="Modelo\DAO\daoProducto.cs" />
+    <Compile Include="Modelo\DAO\daoVentaDetalle.cs" />
     <Compile Include="Modelo\DAO\daoVentasEncabezado.cs" />
     <Compile Include="Modelo\DTO\dtoCliente.cs" />
     <Compile Include="Modelo\DTO\dtoProducto.cs" />
+    <Compile Include="Modelo\DTO\dtoVentaDetalle.cs" />
     <Compile Include="Modelo\DTO\dtoVentasEncabezado.cs" />
     <Compile Include="ReporteProductos.cs">
       <AutoGen>True</AutoGen>
@@ -89,12 +91,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vista\VistaNuevoCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vista\VistaNuevoCliente.Designer.cs">
-      <DependentUpon>VistaNuevoCliente.cs</DependentUpon>
-    </Compile>
     <Compile Include="Vista\VistaProductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +102,24 @@
     </Compile>
     <Compile Include="Vista\VistaVenta.Designer.cs">
       <DependentUpon>VistaVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\VistaVentaDetalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\VistaVentaDetalles.Designer.cs">
+      <DependentUpon>VistaVentaDetalles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\VistaVerVentaDetalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\VistaVerVentaDetalles.Designer.cs">
+      <DependentUpon>VistaVerVentaDetalles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\VistaVerVentasEnca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\VistaVerVentasEnca.Designer.cs">
+      <DependentUpon>VistaVerVentasEnca.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="ReporteProductos.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -129,14 +143,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Vista\VistaNuevoCliente.resx">
-      <DependentUpon>VistaNuevoCliente.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Vista\VistaProductos.resx">
       <DependentUpon>VistaProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\VistaVenta.resx">
       <DependentUpon>VistaVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\VistaVentaDetalles.resx">
+      <DependentUpon>VistaVentaDetalles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\VistaVerVentaDetalles.resx">
+      <DependentUpon>VistaVerVentaDetalles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\VistaVerVentasEnca.resx">
+      <DependentUpon>VistaVerVentasEnca.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

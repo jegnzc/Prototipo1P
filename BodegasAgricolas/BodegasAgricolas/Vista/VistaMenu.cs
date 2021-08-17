@@ -24,7 +24,7 @@ namespace BodegasAgricolas
 
         private void btnAgregarCliente_Click(object sender, EventArgs e)
         {
-            gestorDeFormActivo(new VistaNuevoCliente(), "CLIENTE");
+            gestorDeFormActivo(new VistaVentaDetalles(), "CLIENTE");
         }
 
         private void btnNuevaVenta_Click(object sender, EventArgs e)
@@ -45,6 +45,16 @@ namespace BodegasAgricolas
         private void btnReporteCatalogo_Click(object sender, EventArgs e)
         {
             gestorDeFormActivo(new VistaReporteProductos(), "VERREPORTE");
+        }
+
+        private void btnVentasEnca_Click(object sender, EventArgs e)
+        {
+            gestorDeFormActivo(new VistaVerVentasEnca(), "VERVENTASENCA");
+        }
+
+        private void btnDetallesDeVentas_Click(object sender, EventArgs e)
+        {
+            gestorDeFormActivo(new VistaVerVentaDetalles(), "VERVENTASDETALLES");
         }
 
         private void gestorDeFormActivo(Form formHijo, string formHijoActual)
